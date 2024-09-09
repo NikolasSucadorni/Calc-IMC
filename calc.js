@@ -25,7 +25,7 @@ function IMC(){
             classificacao = 'Alerta! Obesidade grau III.';
         }
 
-        resultado.textContent = `${nome} seu IMC é ${valorIMC} e você está ${classificacao}`;
+        resultado.textContent = `${nome}, seu IMC é ${valorIMC} e você está ${classificacao}`;
 
        }else{
         resultado.textContent = 'Preencha todos os campos!';
