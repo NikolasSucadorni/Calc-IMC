@@ -4,7 +4,7 @@ function IMC(){
     const nome = document.getElementById('Nome').value
     const peso = document.getElementById('Peso').value
     const altura = document.getElementById('Altura').value
-    const result = document.getElementById('Resultado');
+    const resultado = document.getElementById('Resultado');
 
     if(nome !==  '' && altura !==  '' && peso !== ''){
         const valorIMC = (peso/(altura*altura)).toFixed(1);
