@@ -1,5 +1,5 @@
 main{
-    display: flex;
+    display: center;
     width: 100vw;
     height: 100vh;
     justify-content: center;
@@ -56,7 +56,7 @@ button{
     height: 40px;
     font: bold 1.2rem serif;
     background: #323232;
-    color: #323232;
+    color: #2aff0e;
     outline: none;
     border-radius: 5px;
     cursor: pointer;
